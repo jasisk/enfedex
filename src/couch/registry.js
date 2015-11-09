@@ -20,7 +20,7 @@ function munge(doc) {
   const {
     name,
     time: { created, modified, ...time },
-    versions,
+    versions = {},
     homepage,
     repository = {},
       description,
